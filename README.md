@@ -14,23 +14,9 @@ This is an easy process as I have made the entire code cmd user-friendly based .
 
 The libraries required for the project to work fluently are written as follows and  can be installed using a single command on your cmd . 
 
-1.Opencv-python      
-2.Numpy                 
-3.math                 
-4.colorsys              
-5.Pandas            
-6.os                    
-7.argparse              
-8.tqdm                  
-9.librosa 
-10.more_itertools 
-11.scipy
-12.subprocess 
-13.shutil
-14.shlex
-15.matplotlib
-16.Moviepy
-17.PIL
+>>> Opencv-python ; Numpy ; math ; colorsys ; Pandas ; os ; argparse  ; tqdm                  
+>>> librosa ; more_itertools ; scipy ; subprocess ; shutil ; shlex ; matplotlib 
+>>> Moviepy ; PIL
 
 ```
 pip install -r requirements.txt

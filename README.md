@@ -50,7 +50,7 @@ python pixel-sort.py -f sunset
 ```
 Here , sunset is one of the images in the folder Images . 
 
-![Sample output of sunset.jpg](Sample/output.gif)
+![Sample output of sunset.jpg](Sample/sunset.gif)
 
 ## Running the tests
 

@@ -4,66 +4,80 @@ The project comprises of three individual different tasks . Initially , it takes
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. The main requirement is a normal python ide installed on your computer .  
+
+This is an easy process as I have made the entire code cmd user-friendly based . However the process will take a long time as many processes are occuring systematically . However if you want to make any customization to the code as the time duration of the audio as well as plot video all should match , you can change the speed factor . 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The libraries required for the project to work fluently are written as follows and  can be installed using a single command on your cmd . 
+
+1.Opencv-python         11.scipy
+2.Numpy                 12.subprocess 
+3.math                  13.shutil
+4.colorsys              14.shlex
+5.Pandas                15.matplotlib
+6.os                    16.Moviepy
+7.argparse              17.PIL
+8.tqdm                  
+9.librosa 
+10.more_itertools 
 
 ```
-Give examples
+pip install -r requirements.txt
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+1.git clone the repository on your respective command line . 
 
 ```
-Give the example
+git clone 'https://github.com/AemieJ/art-with-python.git
 ```
 
-And repeat
+2.Dive into the repository cloned on your desktop
 
 ```
-until finished
+cd art-with-python
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3.Store any image you wish into the Images folder or you can try one of the image from the folder . After saving into the Images folder , your entire process will execute with this one line of command as follows . 
+
+```
+python pixel-sort.py -f sunset 
+```
+Here , sunset is one of the images in the folder Images . 
+
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+After the entire process is completed , all your files will be stored in another folder called Image_sort and you can use them . However , if there is time duration error such as the plot on top of the video finishes before the video gets over it's due to the speed factor . 
 
-### Break down into end to end tests
+### Guide to change the speed factor
 
-Explain what these tests test and why
+As you have a python ide installed on your system , then from the art-with-python folder open the sound.py and the visual_plot.py . You can experiment with the speed factor to satisfy your requirements . 
 
+In the sound.py , line 60 governs the speed factor for the audio .  
 ```
-Give an example
+data_fast = librosa.effects.time_stretch(data,10.0)
 ```
+Here , the audio is 10x times the original audio . You're free to experiment with any number . 
 
-### And coding style tests
-
-Explain what these tests test and why
-
+In the visual_plot.py , line 93 governs the speed factor of the audio visualizer created with matplotlib . 
 ```
-Give an example
+sped_up_video = concat_clip.speedx(factor=5.0)
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Here , the plot video is sped up to 5x times . You're free to experiment with any number . 
 
 ## Built With
 
-* [Matplotlib](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Pandas](https://maven.apache.org/) - Dependency Management
-* [Scipy](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [Numpy](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [Moviepy](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [ffmpeg](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Matplotlib](https://github.com/matplotlib/matplotlib) - Library for data visualization
+* [Pandas](https://pandas.pydata.org/) - Library for forming data frame structures
+* [Numpy](https://www.numpy.org/) - Library dealing with complex array structure
+* [Moviepy](https://zulko.github.io/moviepy/) - MoviePy is a Python module for video editing
+* [ffmpeg](https://ffmpeg.org/ffmpeg.html) - Software suite of libraries and programs for handling video, audio, and other multimedia files and streams.
 
 
 ## Authors

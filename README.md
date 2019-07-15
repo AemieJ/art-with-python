@@ -84,7 +84,5 @@ Here , the plot video is sped up to 5x times . You're free to experiment with an
 
 * **Aemie Jariwala** - *Initial work* - [AemieJ](https://github.com/AemieJ)
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 

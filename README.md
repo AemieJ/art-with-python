@@ -50,6 +50,7 @@ python pixel-sort.py -f sunset
 ```
 Here , sunset is one of the images in the folder Images . 
 
+![Sample output of sunset.jpg](https://github.com/AemieJ/art-with-python/Sample/sunset.gif)
 
 ## Running the tests
 

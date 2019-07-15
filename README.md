@@ -34,7 +34,7 @@ A step by step series of examples that tell you how to get a development env run
 1.git clone the repository on your respective command line . 
 
 ```
-git clone 'https://github.com/AemieJ/art-with-python.git
+git clone 'https://github.com/AemieJ/art-with-python.git'
 ```
 
 2.Dive into the repository cloned on your desktop
@@ -50,7 +50,7 @@ python pixel-sort.py -f sunset
 ```
 Here , sunset is one of the images in the folder Images . 
 
-![Sample output of sunset.jpg](Sample/sunset.gif)
+![Sample output of sunset.jpg](Sample/output.gif)
 
 ## Running the tests
 

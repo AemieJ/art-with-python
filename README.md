@@ -1,3 +1,5 @@
+**Python Version : 3.7.3**
+
 # Make Art With Python
 
 The project comprises of three individual different tasks . Initially , it takes a picture into account and then a pixel-sort algorithm is applied to it after the picture is sorted , for every pixels its sound frequency is calculated and stored in an audio file . The last part of the project includes creating an audio-visualizer like effect with the help of matplotlib circular bar plot with different frequencies range . In the end , a video is made by combining all the elements with the help of ffmpeg commands . 

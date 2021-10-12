@@ -1,4 +1,4 @@
-Opencv-python==4.1.0
+Opencv-python==4.2.0.32
 numpy==1.16.2
 matplotlib==3.0.3
 colorsys
